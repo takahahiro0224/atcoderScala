@@ -1,9 +1,9 @@
 // https://atcoder.jp/contests/abc169/tasks/abc169_b
-
+package abc169
 import java.util.Scanner
 import scala.annotation.tailrec
 
-object Main extends App {
+object abc169_b extends App {
   val sc = new Scanner(System.in)
   val n = sc.nextInt
   val a = Seq.fill(n)(BigInt(sc.nextLong))
